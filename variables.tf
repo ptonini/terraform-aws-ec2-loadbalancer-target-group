@@ -12,15 +12,15 @@ variable "vpc" {
   })
 }
 
-variable "target_type" {}
-
 variable "health_check" {
   default = {
-    path = "/"
+    path    = "/"
     matcher = "200"
   }
 }
 
-variable "targets" {
+variable "target_type" {}
+
+variable "target_ids" {
   default = []
 }

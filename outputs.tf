@@ -1,3 +1,3 @@
 output "this" {
-  value = aws_alb_target_group.this
+  value = aws_lb_target_group.this
 }
