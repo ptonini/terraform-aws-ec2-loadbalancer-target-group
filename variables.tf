@@ -13,10 +13,7 @@ variable "vpc" {
 }
 
 variable "health_check" {
-  default = {
-    path    = "/"
-    matcher = "200"
-  }
+  default = {}
 }
 
 variable "target_type" {}
