@@ -1,3 +1,7 @@
+variable "name" {
+  default = null
+}
+
 variable "port" {
   default = 80
 }
